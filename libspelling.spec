@@ -11,7 +11,7 @@ Summary:        A spellcheck library for GTK 4
 License:        LGPL-2.1-or-later
 Group:          System/Libraries/GNOME
 URL:            https://gitlab.gnome.org/chergert/libspelling
-Source:         https://download.gnome.org/sources/libspelling/0.2/%{name}-%{version}.tar.xz
+Source0:         https://download.gnome.org/sources/libspelling/0.2/%{name}-%{version}.tar.xz
 # Upstream patch to fix license.
 Patch0:         https://gitlab.gnome.org/chergert/libspelling/-/commit/7483bd2b80aa0de60ddadbd5348fb70415f5587b.patch
 
