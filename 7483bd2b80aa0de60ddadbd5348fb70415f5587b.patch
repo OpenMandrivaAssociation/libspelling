@@ -1,0 +1,52 @@
+From 7483bd2b80aa0de60ddadbd5348fb70415f5587b Mon Sep 17 00:00:00 2001
+From: Christian Hergert <chergert@redhat.com>
+Date: Wed, 6 Dec 2023 13:01:56 -0800
+Subject: [PATCH] testsuite: fix license
+
+This should have gotten updated when migrating to libspelling.
+
+Related #3
+---
+ testsuite/test-cursor.c | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+diff --git a/testsuite/test-cursor.c b/testsuite/test-cursor.c
+index 99ea0ef..90b1b5c 100644
+--- a/testsuite/test-cursor.c
++++ b/testsuite/test-cursor.c
+@@ -1,21 +1,21 @@
+-/* test-spell-cursor.c
++/* test-cursor.c
+  *
+  * Copyright 2021-2023 Christian Hergert <chergert@redhat.com>
+  *
+- * This program is free software: you can redistribute it and/or modify
+- * it under the terms of the GNU General Public License as published by
+- * the Free Software Foundation, either version 3 of the License, or
+- * (at your option) any later version.
++ * This file is free software; you can redistribute it and/or modify it under
++ * the terms of the GNU Lesser General Public License as published by the Free
++ * Software Foundation; either version 3 of the License, or (at your option)
++ * any later version.
+  *
+- * This program is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+- * GNU General Public License for more details.
++ * This file is distributed in the hope that it will be useful, but WITHOUT
++ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
++ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
++ * License for more details.
+  *
+- * You should have received a copy of the GNU General Public License
+- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
++ * You should have received a copy of the GNU General Public License along
++ * with this program.  If not, see <http://www.gnu.org/licenses/>.
+  *
+- * SPDX-License-Identifier: GPL-3.0-or-later
++ * SPDX-License-Identifier: LGPL-3.0-or-later
+  */
+ 
+ #include "config.h"
+-- 
+GitLab
