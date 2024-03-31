@@ -20,6 +20,7 @@ BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(gtksourceview-5)
+BuildRequires:  pkgconfig(harfbuzz-gobject)
 BuildRequires:  pkgconfig(icu-uc)
 BuildRequires:  pkgconfig(vapigen)
 
