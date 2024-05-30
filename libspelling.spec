@@ -6,7 +6,7 @@
 
 Name:           libspelling
 Version:        0.2.1
-Release:        1
+Release:        2
 Summary:        A spellcheck library for GTK 4
 License:        LGPL-2.1-or-later
 Group:          System/Libraries/GNOME
