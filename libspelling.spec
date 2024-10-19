@@ -65,7 +65,9 @@ developing applications that use %{name}.
 %install
 %meson_install
 
-%files -n %{libname}
+%find_lang libspelling
+
+%files -n %{libname} -f libspelling.lang
 %license COPYING
 %doc NEWS README.md
 %{_libdir}/libspelling-%{api}.so.%{major}*
