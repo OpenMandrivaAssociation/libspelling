@@ -5,8 +5,8 @@
 %define develname %mklibname spelling -d
 
 Name:           libspelling
-Version:        0.4.6
-Release:        3
+Version:        0.4.7
+Release:        1
 Summary:        A spellcheck library for GTK 4
 License:        LGPL-2.1-or-later
 Group:          System/Libraries/GNOME
