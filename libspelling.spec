@@ -5,13 +5,13 @@
 %define develname %mklibname spelling -d
 
 Name:           libspelling
-Version:        0.4.9
-Release:        2
+Version:        0.4.10
+Release:        1
 Summary:        A spellcheck library for GTK 4
 License:        LGPL-2.1-or-later
 Group:          System/Libraries/GNOME
 URL:            https://gitlab.gnome.org/chergert/libspelling
-Source0:         https://download.gnome.org/sources/libspelling/0.2/%{name}-%{version}.tar.xz
+Source0:         https://download.gnome.org/sources/libspelling/0.4/%{name}-%{version}.tar.xz
 
 BuildRequires:  meson
 BuildRequires:  pkgconfig(enchant-2)
